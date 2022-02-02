@@ -8,16 +8,27 @@ main{
   background-color: black;
   overflow-y: auto;
 }
-footer{
-  height: 10vh;
-  background-color: red;
+.visual{
+  top: 3px;
+  right: 0;
 }
-.flex-container{
-  display: flex;
+.background-gray{
+  background-color: #454545;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: .7rem;
+  margin-right: 2px;
+  display: inline-block;
+}
+.container{
   gap: 8px;
   flex-wrap:wrap;  
   justify-content: center;
   align-items: center;
+}
+.flex-container{
+  display: flex;
 }
 main section{
   padding-top: 4rem;
@@ -42,4 +53,44 @@ main section{
   background-color: #65717c;
   color: white;
   padding: 2px;
+}
+/* footer */
+footer{
+  height: 10vh;
+  background-color: #222222;
+}
+.nav{
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.btn-large i:first-child {
+  font-size: 2rem;
+}
+.btn-large , .fa-chevron-up{
+  color:white;
+  font-size: .7rem;
+}
+.btn-large > *{
+  padding: 5px;
+}
+.green{
+  color: #4bc800;
+}
+.txt-center{
+  text-align: center;
+}
+#end{
+  background-color: #444444;
+  color: red;
+  height: 100%;
+  width: 7%;
+  font-size: .7rem;
+}
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+.chevron{
+  align-self: center;
 }
