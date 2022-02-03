@@ -63,6 +63,7 @@ footer{
   justify-content: space-between;
   height: 100%;
   align-items: center;
+  overflow-x: auto;
 }
 .btn-large i:first-child {
   font-size: 2rem;
@@ -93,4 +94,7 @@ footer{
 }
 .chevron{
   align-self: center;
+}
+.aside , .center{
+  flex-shrink: 0;
 }
